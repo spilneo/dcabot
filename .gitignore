@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/
+.venv/
+*/bin/
+*/include/
+*/lib/
+*/lib64/
+
+# Logs
+*.log
+logs/
+*.txt # For ccxt.txt specifically, if it's a temporary or generated file. If it's a requirements file, it should be kept. I'll include it for now, user can modify if needed.
+
+# OS generated files
+.DS_Store
+.localized
+
+# Sensitive files
+keys.json
+
+# Media files
+*.mp4 
